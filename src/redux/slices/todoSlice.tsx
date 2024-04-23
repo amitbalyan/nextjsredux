@@ -36,6 +36,6 @@ const todoSlice = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { addTask, removeTask, toggleTask } = todoSlice.actions
+export const { addTask, removeTask } = todoSlice.actions
 
 export default todoSlice.reducer
